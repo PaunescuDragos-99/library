@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    background-color: blue;
+    padding: 14px;
+}
+
+.item-container {
+    display: flex;
+    flex-direction: row;
+    border: solid;
+    flex-wrap: wrap;
+    padding: 40px;
+    gap: 40px;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    width: 20rem;
+}
+
+.item-data {
+    padding: 20px;
+    border: solid;
+
+}
+
+.my-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #888;
+    width: 20%;
+    gap: 20px;
+}
+
+.modal-content > form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: 1;
+    gap: 20px;
+}
+
+.read-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+  
