@@ -6,10 +6,12 @@ let close = document.getElementsByClassName("close")[0];
 let formBtn = document.getElementById("formBtn");
 let bookCounter = 0;
 
-function Book(name,pages,read) {
-    this.title = name;
-    this.pages = pages;
-    this.read = read;
+class Book {
+    constructor(name,pages,read){
+        this.title = name;
+        this.pages = pages;
+        this.read = read;
+    }
 }
 
 function addBookToLibrary(book) {
